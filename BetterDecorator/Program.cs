@@ -4,6 +4,13 @@ namespace BetterDecorator
 {
     class Program
     {
+        /// <summary>
+        /// receive a string, a char, or a int
+        /// <param name="s"></param>
+        /// <param name="dec"></param>
+        /// <param name="num"></param>
+        /// <returns></returns>
+        
         private static string Decor(string s, char dec, int num)
         {
             string destr = ""; 
@@ -20,6 +27,9 @@ namespace BetterDecorator
             return destr;
         }
         
+        /// <summary>
+        /// Write the string, char or int
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             if (args.Length != 3)
